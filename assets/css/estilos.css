@@ -1,11 +1,12 @@
 body {
   font-family: "Raleway", sans-serif;
+  background-color: rgb(174, 174, 174);
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/paisaje-fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -15,9 +16,14 @@ body {
 
 #Mis-trabajos .image-top {
   height: 250px;
+  background-color: blueviolet;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#Acerca-de-mi{
+  background: rgb(183, 224, 206);
 }
 
 /* Contacto */
@@ -25,6 +31,11 @@ body {
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
+}
+
+#Contacto{
+
+  padding: 8rem;
 }
 
 @media (max-width: 768px) {
