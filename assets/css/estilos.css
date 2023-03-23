@@ -34,8 +34,8 @@ body {
 }
 
 #Contacto{
-
-  padding: 8rem;
+  background-color: rgb(116, 156, 203);
+  padding: 2rem;
 }
 
 @media (max-width: 768px) {
